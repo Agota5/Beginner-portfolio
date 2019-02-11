@@ -1,0 +1,134 @@
+            
+body{
+    font-family: sans-serif;
+    background-image: url("../img/back_color_balls.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.primary-text{
+    color: plum;
+}
+
+/*header*/
+#main-header{
+     background: -webkit-linear-gradient(white, hotpink);
+    border-bottom: 1px solid plum;
+    border-radius: 40px;
+}
+/* navbar*/
+#navbar{
+    text-transform: uppercase;
+}
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+#navbar li.current a, #navbar a:hover{
+    color: plum;
+    border-bottom: 3px solid plum;
+    padding-bottom: 3px;
+}
+/*social*/
+#social li{
+    display: inline;
+    padding-left: 20px;
+    list-style: none;
+}
+#social li a fa{
+    text-decoration: none;
+    color: #888;
+}
+#social a:hover{
+    color: plum;
+    border-bottom: plum;
+    padding-bottom: 2px;
+}
+#container{
+    background: -webkit-linear-gradient(white, hotpink);
+    width: 80%;
+    padding: 20px;
+    margin: 100px auto;
+    border: solid 15px white;
+}
+
+.col h2, .col h4{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.logo{
+    width: auto;
+    height: auto;
+    top:0px;
+    bottom: 0px;
+    margin: auto;
+    left: 30px;
+    transition: transform 2s;
+}
+.logo:hover{
+    -webkit-transform: rotate(360deg);
+}
+.myButton{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: pink;
+    box-shadow: 0px 3px 8px hotpink;
+    color: black;
+    outline: none;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: background linear 0.3s;
+}
+.myButton:hover{
+    background-color: antiquewhite;
+}
+#btn1:hover ~ .myImage {
+    background: url(../img/rsz_about.jpg);
+}
+#btn2:hover ~ .myImage {
+    background: url(../img/rsz_gallery-page-001.jpg);
+}
+#btn3:hover ~ .myImage {
+    background: url(../img/rsz_game-page-001.jpg);
+}
+#btn4:hover ~ .myImage {
+    background: url(../img/rsz_contact.jpg);
+}
+.myImage{
+    background: url(../img/rsz_about.jpg)100% no-repeat;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+
+img {
+  width: 100%;
+    
+}
+
+col p{
+    text-align: center;
+  padding: 10px 20px;
+}
+/*Footer*/
+#main-footer{
+    background: plum;
+    color: white;
+}
